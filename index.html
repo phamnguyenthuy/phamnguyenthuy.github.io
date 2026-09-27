@@ -11,6 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
     <style>
+        /* Playfair Display */
         @font-face {
             font-family: "Playfair Display Local";
             src: url("./fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf") format("truetype");
@@ -25,12 +26,27 @@
             font-style: italic;
         }
 
+        /* Google Sans */
+        @font-face {
+            font-family: "Google Sans Local";
+            src: url("./fonts/Google_Sans/GoogleSans-VariableFont_GRAD,opsz,wght.ttf") format("truetype");
+            font-weight: 100 900;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Google Sans Local";
+            src: url("./fonts/Google_Sans/GoogleSans-Italic-VariableFont_GRAD,opsz,wght.ttf") format("truetype");
+            font-weight: 100 900;
+            font-style: italic;
+        }
+
         .name-font {
-            font-family: 'Playfair Display', serif;
+            font-family: "Playfair Display Local", serif;
         }
 
         .slogan-font {
-            font-family: "Google Sans", sans-serif;
+            font-family: "Google Sans Local", sans-serif;
         }
     </style>
 </head>
