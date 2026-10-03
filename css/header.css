@@ -35,4 +35,5 @@ header {
     display: block;
     width: 28px;
     height: 28px;
+    fill: currentColor;
 }
