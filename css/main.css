@@ -1,0 +1,82 @@
+main {
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.content {
+    width: 100%;
+    max-width: 600px;
+
+    padding: 24px;
+
+    box-sizing: border-box;
+
+    text-align: center;
+}
+
+.social-links {
+    margin-top: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 18px;
+}
+
+.social-link {
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    color: white;
+    text-decoration: none;
+
+    transition:
+        transform 0.2s ease,
+        opacity 0.2s ease;
+}
+
+/* Facebook */
+.social-link.facebook {
+    background-color: #1877F2;
+}
+
+/* YouTube */
+.social-link.youtube {
+    background-color: #FF0000;
+}
+
+/* LinkedIn */
+.social-link.linkedin {
+    background-color: #0A66C2;
+}
+
+
+/* Icon */
+.social-link svg {
+    width: 22px;
+    height: 22px;
+
+    display: block;
+
+    fill: currentColor;
+}
+
+
+/* Hover */
+.social-link:hover {
+    opacity: 0.85;
+    transform: translateY(-2px);
+}

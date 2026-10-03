@@ -4,25 +4,3 @@ body {
     padding: 0;
     width: 100%;
 }
-
-html {
-    background-color: black;
-}
-
-body {
-    min-height: 100vh;
-
-    display: flex;
-    flex-direction: column;
-
-    overflow-x: hidden;
-
-    background-image: url("../images/backgrounds/bg3.webp");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-main {
-    flex: 1;
-}
