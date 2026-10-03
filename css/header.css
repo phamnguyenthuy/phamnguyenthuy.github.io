@@ -16,8 +16,8 @@ header {
 }
 
 .menu-button {
-    width: 28px;
-    height: 28px;
+    width: 32px;
+    height: 32px;
     padding: 0;
 
     display: flex;
@@ -29,11 +29,4 @@ header {
     color: black;
 
     cursor: pointer;
-}
-
-.menu-button svg {
-    display: block;
-    width: 28px;
-    height: 28px;
-    fill: currentColor;
 }
