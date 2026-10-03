@@ -11,15 +11,18 @@ body {
     overflow-x: hidden;
 }
 
-/* Background toàn màn hình */
+/* Background */
 body::before {
     content: "";
     position: fixed;
     inset: 0;
-    z-index: -1;
+    z-index: 0;
 
-    background-image: url("../images/backgrounds/bg3.webp");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: url("../images/backgrounds/bg3.webp") center / cover no-repeat;
+}
+
+/* Nội dung nằm trên background */
+body>* {
+    position: relative;
+    z-index: 1;
 }
