@@ -13,21 +13,6 @@ main {
     justify-content: center;
 }
 
-.name {
-    font-family: Georgia, Cambria, "Times New Roman", serif;
-    font-size: 3.75rem;
-    font-weight: 300;
-    letter-spacing: -0.025em;
-}
-
-.slogan {
-    margin-top: 0.75rem;
-    font-family: Arial, sans-serif;
-    font-size: 1rem;
-    font-style: italic;
-    color: white;
-}
-
 .social-links {
     display: flex;
     align-items: center;
