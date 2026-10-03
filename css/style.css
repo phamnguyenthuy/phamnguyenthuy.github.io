@@ -1,28 +1,22 @@
-html,
-body {
-    margin: 0;
+html {
     width: 100%;
     min-height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #fffbea;
 }
 
 body {
+    width: 100%;
+    min-height: 100vh;
     min-height: 100dvh;
+    margin: 0;
+    padding: 0;
     overflow-x: hidden;
-}
 
-/* Background */
-body::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-
+    background-color: #fffbea;
     background-image: url("../images/backgrounds/bg3.webp");
+    background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-repeat: no-repeat;
-
-    z-index: -1;
 }
