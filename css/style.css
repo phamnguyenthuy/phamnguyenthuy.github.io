@@ -9,10 +9,7 @@ body {
     min-height: 100dvh;
     box-sizing: border-box;
 
-    background-image: url("../images/backgrounds/bg3.webp");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url("../images/backgrounds/bg3.webp") center / cover no-repeat;
 
     padding:
         env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
