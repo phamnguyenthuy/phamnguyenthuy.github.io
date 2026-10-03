@@ -1,22 +1,27 @@
-html {
-    width: 100%;
-    min-height: 100%;
+/* ==============================
+   RESET
+   ============================== */
+
+html,
+body {
     margin: 0;
     padding: 0;
-    background-color: #fffbea;
+    width: 100%;
 }
 
+
+/* ==============================
+   PAGE
+   ============================== */
+
 body {
-    width: 100%;
     min-height: 100vh;
     min-height: 100dvh;
-    margin: 0;
-    padding: 0;
+
     overflow-x: hidden;
 
-    background-color: #fffbea;
     background-image: url("../images/backgrounds/bg3.webp");
+    background-position: center;
     background-repeat: no-repeat;
-    background-position: center center;
     background-size: cover;
 }
