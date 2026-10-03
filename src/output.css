@@ -19,8 +19,6 @@
     --text-4xl--line-height: calc(2.5 / 2.25);
     --text-6xl: 3.75rem;
     --text-6xl--line-height: 1;
-    --text-8xl: 6rem;
-    --text-8xl--line-height: 1;
     --font-weight-light: 300;
     --tracking-tight: -0.025em;
     --ease-in: cubic-bezier(0.4, 0, 1, 1);
