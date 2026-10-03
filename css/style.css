@@ -5,24 +5,13 @@ body {
     min-height: 100%;
 }
 
-body {
-    position: relative;
-    min-height: 100dvh;
-    overflow-x: hidden;
-}
-
-/* Background */
-body::before {
-    content: "";
-    position: fixed;
-    inset: 0;
-    z-index: 0;
-
+html {
     background: url("../images/backgrounds/bg3.webp") center / cover no-repeat;
 }
 
-/* Nội dung nằm trên background */
-body>* {
-    position: relative;
-    z-index: 1;
+body {
+    min-height: 100dvh;
+    overflow-x: hidden;
+
+    background: url("../images/backgrounds/bg3.webp") center / cover no-repeat;
 }
