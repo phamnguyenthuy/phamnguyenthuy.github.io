@@ -1,5 +1,15 @@
+/* ==============================
+   HEADER
+   ============================== */
+
 .site-header {
+    position: fixed;
+
+    top: 48px;
+    left: 0;
+
     width: 100%;
+
     box-sizing: border-box;
 
     display: flex;
@@ -7,7 +17,14 @@
     justify-content: space-between;
 
     padding: 24px;
+
+    z-index: 99;
 }
+
+
+/* ==============================
+   LOGO
+   ============================== */
 
 .logo {
     color: #000;
@@ -17,6 +34,11 @@
     font-size: 24px;
     font-weight: 300;
 }
+
+
+/* ==============================
+   MENU BUTTON
+   ============================== */
 
 .menu-button {
     width: 32px;
@@ -32,12 +54,20 @@
     background: transparent;
 
     color: #000;
+
     cursor: pointer;
 }
 
+
+/* ==============================
+   MENU ICON
+   ============================== */
+
 .menu-button svg {
     display: block;
+
     width: 24px;
     height: 24px;
+
     fill: currentColor;
 }
