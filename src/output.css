@@ -17,6 +17,8 @@
     --text-base--line-height: calc(1.5 / 1);
     --text-6xl: 3.75rem;
     --text-6xl--line-height: 1;
+    --text-8xl: 6rem;
+    --text-8xl--line-height: 1;
     --font-weight-light: 300;
     --tracking-tight: -0.025em;
     --ease-in: cubic-bezier(0.4, 0, 1, 1);
@@ -231,6 +233,12 @@
   .w-10 {
     width: calc(var(--spacing) * 10);
   }
+  .w-\[100px\] {
+    width: 100px;
+  }
+  .w-full {
+    width: 100%;
+  }
   .max-w-md {
     max-width: var(--container-md);
   }
@@ -245,6 +253,9 @@
   }
   .items-center {
     align-items: center;
+  }
+  .justify-between {
+    justify-content: space-between;
   }
   .justify-center {
     justify-content: center;
@@ -265,6 +276,15 @@
   .bg-\[\#FF0000\] {
     background-color: #FF0000;
   }
+  .bg-cover {
+    background-size: cover;
+  }
+  .bg-center {
+    background-position: center;
+  }
+  .bg-no-repeat {
+    background-repeat: no-repeat;
+  }
   .p-0 {
     padding: 0px;
   }
@@ -284,9 +304,17 @@
     font-size: var(--text-6xl);
     line-height: var(--tw-leading, var(--text-6xl--line-height));
   }
+  .text-8xl {
+    font-size: var(--text-8xl);
+    line-height: var(--tw-leading, var(--text-8xl--line-height));
+  }
   .text-base {
     font-size: var(--text-base);
     line-height: var(--tw-leading, var(--text-base--line-height));
+  }
+  .leading-none {
+    --tw-leading: 1;
+    line-height: 1;
   }
   .font-light {
     --tw-font-weight: var(--font-weight-light);
@@ -338,6 +366,9 @@
     transition-timing-function: var(--ease-out);
   }
   @media (hover: hover) {
+    .hover\:opacity-60:hover {
+      opacity: 60%;
+    }
     .hover\:opacity-80:hover {
       opacity: 80%;
     }
@@ -377,6 +408,10 @@
   syntax: "*";
   inherits: false;
   initial-value: solid;
+}
+@property --tw-leading {
+  syntax: "*";
+  inherits: false;
 }
 @property --tw-font-weight {
   syntax: "*";
@@ -457,6 +492,7 @@
       --tw-skew-x: initial;
       --tw-skew-y: initial;
       --tw-border-style: solid;
+      --tw-leading: initial;
       --tw-font-weight: initial;
       --tw-tracking: initial;
       --tw-outline-style: solid;
