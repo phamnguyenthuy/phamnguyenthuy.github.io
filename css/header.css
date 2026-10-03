@@ -20,6 +20,7 @@ header {
     border: 0;
     background: transparent;
     font-size: 32px;
+    font-weight: bolder;
     line-height: 1;
     cursor: pointer;
     color: black;
