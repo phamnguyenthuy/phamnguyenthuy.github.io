@@ -7,41 +7,6 @@ body {
     background: url("../images/backgrounds/bg3.webp") center / cover no-repeat;
 }
 
-main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.social-links {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    margin-top: 0.75rem;
-}
-
-.social-link {
-    width: 40px;
-    height: 40px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    transition: opacity 0.2s ease;
-}
-
-.social-link:hover {
-    opacity: 0.8;
-}
-
-.social-link svg {
-    width: 24px;
-    height: 24px;
-    fill: white;
-}
-
 .facebook {
     background-color: #1877F2;
 }
