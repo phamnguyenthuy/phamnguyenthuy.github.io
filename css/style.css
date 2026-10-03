@@ -3,21 +3,25 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
+    min-height: 100%;
 }
 
 html {
     min-height: 100%;
-    background: url("../images/backgrounds/bg3.webp") center / cover no-repeat;
+    background-color: #fffbea;
+    background-image: url("../images/backgrounds/bg3.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 body {
-    min-height: 100vh;
-
+    min-height: 150vh;
     overflow-x: hidden;
 
-    background: url("../images/backgrounds/bg3.webp") center / cover no-repeat;
-}
-
-.page-content {
-    min-height: 150vh;
+    background-color: #fffbea;
+    background-image: url("../images/backgrounds/bg3.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
