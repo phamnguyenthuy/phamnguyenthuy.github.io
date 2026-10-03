@@ -1,4 +1,4 @@
-.left-sidebar {
+/* .left-sidebar {
     width: max-content;
 
     display: flex;
@@ -10,4 +10,13 @@
     padding: 12px;
 
     box-sizing: border-box;
+} */
+
+.left-sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    box-sizing: border-box;
+    padding: 12px;
 }
