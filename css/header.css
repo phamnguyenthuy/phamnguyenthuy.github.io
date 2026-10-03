@@ -16,12 +16,19 @@ header {
 }
 
 .menu-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
     padding: 0;
-    border: 0;
+    border: none;
     background: transparent;
-    font-size: 32px;
-    font-weight: bolder;
-    line-height: 1;
+    color: #000;
     cursor: pointer;
-    color: black;
+    transition: opacity 0.2s;
+}
+
+.menu-button:hover {
+    opacity: 0.6;
 }
