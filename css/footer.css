@@ -34,3 +34,11 @@ footer {
     height: 32px;
     fill: currentColor;
 }
+
+.copyright {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    color: #111;
+}
