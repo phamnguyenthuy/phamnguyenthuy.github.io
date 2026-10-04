@@ -114,7 +114,4 @@
 
     /* Làm nút hơi trong suốt */
     opacity: 0.85;
-
-    /* Đưa nút lên trên 2px */
-    transform: translateY(-2px);
 }
