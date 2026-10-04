@@ -6,8 +6,6 @@ header {
 }
 
 .header-icon {
-    width: 24px;
-    height: 24px;
 
     padding: 0;
 
@@ -18,14 +16,14 @@ header {
     border: 0;
 
     color: black;
-
+    background-color: transparent;
     cursor: pointer;
 }
 
 .header-icon svg {
     display: block;
 
-    width: 24px;
-    height: 24px;
+    width: 32px;
+    height: 32px;
     fill: currentColor;
 }
