@@ -18,6 +18,7 @@
     box-sizing: border-box;
 }
 
+/* Top area */
 .top-area {
     /* Xếp các phần tử bên trong top-area theo chiều dọc */
     display: flex;
@@ -29,6 +30,7 @@
     gap: 12px;
 }
 
+/* Bottom area */
 .bottom-area {
     /* Xếp các phần tử bên trong bottom-area theo chiều dọc */
     display: flex;
