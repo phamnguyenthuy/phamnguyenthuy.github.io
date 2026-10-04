@@ -24,14 +24,17 @@ body {
     display: grid;
 
     grid-template-columns:
-        max-content minmax(0, 1200px) max-content;
-
-    justify-content: space-between;
+        max-content minmax(0, 1fr) max-content;
 
     box-sizing: border-box;
 }
 
 .content {
+    width: 100%;
+    height: 100%;
+
+    box-sizing: border-box;
+
     background-image: url("../images/backgrounds/bg3.webp");
 }
 
