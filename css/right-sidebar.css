@@ -39,3 +39,82 @@
     /* Khoảng cách giữa các phần tử là 12px */
     gap: 12px;
 }
+
+/* Thiết lập kiểu dáng chung cho tất cả social link */
+.social-link {
+
+    /* Chiều rộng của nút */
+    width: 40px;
+
+    /* Chiều cao của nút */
+    height: 40px;
+
+    /* Loại bỏ padding mặc định */
+    padding: 0;
+
+    /* Sử dụng Flexbox */
+    display: flex;
+
+    /* Căn icon theo chiều dọc */
+    align-items: center;
+
+    /* Căn icon theo chiều ngang */
+    justify-content: center;
+
+    /* Icon sử dụng màu trắng */
+    color: white;
+
+    /* Loại bỏ gạch chân của thẻ <a> */
+    text-decoration: none;
+
+    /* Tạo hiệu ứng chuyển động mượt khi hover */
+    transition:
+        transform 0.2s ease,
+        opacity 0.2s ease;
+}
+
+
+/* Thiết lập kích thước SVG bên trong social link */
+.social-link svg {
+
+    /* Hiển thị SVG dạng block */
+    display: block;
+
+    /* Chiều rộng icon */
+    width: 22px;
+
+    /* Chiều cao icon */
+    height: 22px;
+
+    /* SVG lấy màu từ thuộc tính color của .social-link */
+    fill: currentColor;
+}
+
+
+/* Màu nền cho Facebook */
+.social-link.facebook {
+    background-color: #1877F2;
+}
+
+
+/* Màu nền cho YouTube */
+.social-link.youtube {
+    background-color: #FF0000;
+}
+
+
+/* Màu nền cho LinkedIn */
+.social-link.linkedin {
+    background-color: #0A66C2;
+}
+
+
+/* Hiệu ứng khi đưa chuột lên social link */
+.social-link:hover {
+
+    /* Làm nút hơi trong suốt */
+    opacity: 0.85;
+
+    /* Đưa nút lên trên 2px */
+    transform: translateY(-2px);
+}
