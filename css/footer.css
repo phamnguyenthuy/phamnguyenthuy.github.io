@@ -11,3 +11,26 @@ footer {
     align-items: center;
     gap: 12px;
 }
+
+.footer-icon {
+
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 0;
+
+    color: black;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.footer-icon svg {
+    display: block;
+
+    width: 32x;
+    height: 32px;
+    fill: currentColor;
+}
