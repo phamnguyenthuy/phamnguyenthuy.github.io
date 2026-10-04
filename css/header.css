@@ -5,7 +5,7 @@ header {
     padding: 12px;
 }
 
-.menu-button {
+.header-icon {
     width: 24px;
     height: 24px;
 
@@ -22,7 +22,7 @@ header {
     cursor: pointer;
 }
 
-.menu-button svg {
+.header-icon svg {
     display: block;
 
     width: 24px;
