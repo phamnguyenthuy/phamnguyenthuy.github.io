@@ -92,11 +92,6 @@
     fill: currentColor;
 }
 
-/* Màu nền cho GitHub */
-.social-link.github {
-    background-color: #181717;
-}
-
 /* Màu nền cho Facebook */
 .social-link.facebook {
     background-color: #1877F2;
@@ -108,10 +103,19 @@
     background-color: #FF0000;
 }
 
+/* Màu nền cho X */
+.social-link.x {
+    background-color: #0F1419;
+}
 
 /* Màu nền cho LinkedIn */
 .social-link.linkedin {
     background-color: #0A66C2;
+}
+
+/* Màu nền cho GitHub */
+.social-link.github {
+    background-color: #1F2328;
 }
 
 
