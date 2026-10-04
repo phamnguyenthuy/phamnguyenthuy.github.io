@@ -46,10 +46,10 @@
 .social-link {
 
     /* Chiều rộng của nút */
-    width: 40px;
+    width: 48px;
 
     /* Chiều cao của nút */
-    height: 40px;
+    height: 48px;
 
     /* Loại bỏ padding mặc định */
     padding: 0;
@@ -83,10 +83,10 @@
     display: block;
 
     /* Chiều rộng icon */
-    width: 22px;
+    width: 24px;
 
     /* Chiều cao icon */
-    height: 22px;
+    height: 24px;
 
     /* SVG lấy màu từ thuộc tính color của .social-link */
     fill: currentColor;
