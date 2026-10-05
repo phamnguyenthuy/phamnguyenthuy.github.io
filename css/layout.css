@@ -51,9 +51,6 @@
     /* Đẩy top-area lên trên và bottom-area xuống dưới */
     justify-content: space-between;
 
-    /* Tạo khoảng cách 0px ở bên trong sidebar */
-    padding: 0px;
-
     /* Padding không làm tăng kích thước tổng của sidebar */
     box-sizing: border-box;
 }
