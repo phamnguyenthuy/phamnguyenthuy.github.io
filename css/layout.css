@@ -50,7 +50,4 @@
 
     /* Đẩy top-area lên trên và bottom-area xuống dưới */
     justify-content: space-between;
-
-    /* Padding không làm tăng kích thước tổng của sidebar */
-    box-sizing: border-box;
 }
