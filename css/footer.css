@@ -90,7 +90,7 @@ footer {
 .qr-box {
     position: relative;
 
-    width: 300px;
+    max-width: 300px;
     padding: 30px;
 
     background: white;
@@ -100,39 +100,8 @@ footer {
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
 }
 
-.qr-box h3 {
-    margin: 0 0 20px;
-    font-weight: 400;
-}
-
 #qrcode {
     display: flex;
     justify-content: center;
     margin: 10px 0 20px;
-}
-
-.qr-box p {
-    margin: 0;
-    font-size: 14px;
-    color: #666;
-}
-
-
-/* Close button */
-.qr-close {
-    position: absolute;
-    top: 8px;
-    right: 12px;
-
-    border: none;
-    background: none;
-
-    font-size: 28px;
-    color: #555;
-
-    cursor: pointer;
-}
-
-.qr-close:hover {
-    color: #000;
 }

@@ -130,8 +130,6 @@
                 <!-- QR Modal -->
                 <div id="qrModal" class="qr-modal">
                     <div class="qr-box">
-                        <button id="qrClose" class="qr-close">&times;</button>
-
                         <div id="qrcode">
                             <img src="/images/qr-code/phamnguyenthuy.svg" alt="">
                         </div>
@@ -146,7 +144,6 @@
                 <script>
                     const qrButton = document.getElementById("qrButton");
                     const qrModal = document.getElementById("qrModal");
-                    const qrClose = document.getElementById("qrClose");
                     const qrContainer = document.getElementById("qrcode");
 
                     let qrCreated = false;
@@ -163,10 +160,6 @@
 
                             qrCreated = true;
                         }
-                    });
-
-                    qrClose.addEventListener("click", () => {
-                        qrModal.classList.remove("active");
                     });
 
                     qrModal.addEventListener("click", (event) => {
