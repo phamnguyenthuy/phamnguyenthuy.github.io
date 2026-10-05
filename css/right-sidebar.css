@@ -6,40 +6,13 @@
     flex-direction: column;
 
     /* Đẩy top-area lên trên và bottom-area xuống dưới */
-    justify-content: space-between;
-
-    /* Căn các phần tử con về phía bên phải */
-    align-items: flex-end;
+    justify-content: flex-end;
 
     /* Tạo khoảng cách 0px ở bên trong sidebar */
     padding: 0px;
 
     /* Padding không làm tăng kích thước tổng của sidebar */
     box-sizing: border-box;
-}
-
-/* Top area */
-.top-area {
-    /* Xếp các phần tử bên trong top-area theo chiều dọc */
-    display: flex;
-
-    /* Xếp từ trên xuống dưới */
-    flex-direction: column;
-
-    /* Khoảng cách giữa các phần tử là 12px */
-    gap: 12px;
-}
-
-/* Bottom area */
-.bottom-area {
-    /* Xếp các phần tử bên trong bottom-area theo chiều dọc */
-    display: flex;
-
-    /* Xếp từ trên xuống dưới */
-    flex-direction: column;
-
-    /* Khoảng cách giữa các phần tử là 12px */
-    gap: 12px;
 }
 
 /* Thiết lập kiểu dáng chung cho tất cả social link */
