@@ -24,14 +24,14 @@
     flex: 1;
     min-height: 0;
 
-    border-radius: 12px 0px 0px 12px;
-
     display: grid;
 
     grid-template-columns:
         minmax(0, 1fr) max-content;
 
     box-sizing: border-box;
+
+    border-radius: 12px 0px 0px 12px;
 
     background-image: url("../images/backgrounds/bg2.webp");
     background-position: center;
