@@ -141,6 +141,40 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Mở QR code -->
+                <script>
+                    const qrButton = document.getElementById("qrButton");
+                    const qrModal = document.getElementById("qrModal");
+                    const qrClose = document.getElementById("qrClose");
+                    const qrContainer = document.getElementById("qrcode");
+
+                    let qrCreated = false;
+
+                    qrButton.addEventListener("click", () => {
+                        qrModal.classList.add("active");
+
+                        if (!qrCreated) {
+                            new QRCode(qrContainer, {
+                                text: window.location.href,
+                                width: 200,
+                                height: 200
+                            });
+
+                            qrCreated = true;
+                        }
+                    });
+
+                    qrClose.addEventListener("click", () => {
+                        qrModal.classList.remove("active");
+                    });
+
+                    qrModal.addEventListener("click", (event) => {
+                        if (event.target === qrModal) {
+                            qrModal.classList.remove("active");
+                        }
+                    });
+                </script>
             </div>
             <div class="footer-right">
                 <p class="copyright">
@@ -149,40 +183,6 @@
             </div>
         </footer>
     </div>
-
-    <!-- Mở QR code -->
-    <script>
-        const qrButton = document.getElementById("qrButton");
-        const qrModal = document.getElementById("qrModal");
-        const qrClose = document.getElementById("qrClose");
-        const qrContainer = document.getElementById("qrcode");
-
-        let qrCreated = false;
-
-        qrButton.addEventListener("click", () => {
-            qrModal.classList.add("active");
-
-            if (!qrCreated) {
-                new QRCode(qrContainer, {
-                    text: window.location.href,
-                    width: 200,
-                    height: 200
-                });
-
-                qrCreated = true;
-            }
-        });
-
-        qrClose.addEventListener("click", () => {
-            qrModal.classList.remove("active");
-        });
-
-        qrModal.addEventListener("click", (event) => {
-            if (event.target === qrModal) {
-                qrModal.classList.remove("active");
-            }
-        });
-    </script>
 </body>
 
 </html>
