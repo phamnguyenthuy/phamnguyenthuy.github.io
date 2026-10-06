@@ -31,12 +31,6 @@ document.addEventListener("click", (event) => {
         return;
     }
 
-    // Đóng bằng nút X
-    if (event.target.closest("#qrClose")) {
-        document.getElementById("qrModal").classList.remove("active");
-        return;
-    }
-
     // Đóng khi click vào vùng nền
     if (event.target.id === "qrModal") {
         document.getElementById("qrModal").classList.remove("active");
