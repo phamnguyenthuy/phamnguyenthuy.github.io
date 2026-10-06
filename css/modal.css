@@ -31,6 +31,5 @@
     text-decoration: none;
     padding: 12px;
     font-size: larger;
-    border-bottom: 1px;
-    border-color: black;
+    color: black;
 }
