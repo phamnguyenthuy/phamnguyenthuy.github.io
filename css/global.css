@@ -1,5 +1,4 @@
 html,
-body,
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +6,11 @@ body,
 
     font-family: "Segoe UI", sans-serif;
     font-weight: lighter;
+}
+
+body {
+    width: 100%;
+    min-width: 375px;
 }
 
 .slogan {
