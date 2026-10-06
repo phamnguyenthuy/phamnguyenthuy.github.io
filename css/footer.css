@@ -30,10 +30,7 @@ footer {
     display: flex;
 }
 
-
-/* QR Box */
 .qr-box {
-    max-width: 320px;
     padding: 12px;
 
     background: white;
