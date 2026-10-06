@@ -26,7 +26,7 @@ fetch("/components/right-sidebar.html")
 document.addEventListener("click", (event) => {
 
     // Mở QR
-    if (event.target.closest("#qrButton")) {
+    if (event.target.closest("#qr-button")) {
         document.getElementById("qr-modal").classList.add("active");
         return;
     }
