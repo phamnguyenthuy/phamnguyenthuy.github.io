@@ -43,18 +43,3 @@ footer {
 
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
 }
-
-/* QR */
-#qrcode {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 12px;
-}
-
-#qrcode img {
-    width: 220px;
-    height: 220px;
-
-    display: block;
-}
