@@ -12,8 +12,6 @@
         opacity 0.2s ease;
 }
 
-
-/* Thiết lập kích thước SVG bên trong social link */
 .social-link svg {
     display: block;
     width: 24px;
