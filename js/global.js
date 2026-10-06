@@ -27,13 +27,13 @@ document.addEventListener("click", (event) => {
 
     // Mở QR
     if (event.target.closest("#qrButton")) {
-        document.getElementById("qrModal").classList.add("active");
+        document.getElementById("qr-modal").classList.add("active");
         return;
     }
 
     // Đóng khi click vào vùng nền
-    if (event.target.id === "qrModal") {
-        document.getElementById("qrModal").classList.remove("active");
+    if (event.target.id === "qr-modal") {
+        document.getElementById("qr-modal").classList.remove("active");
     }
 
 });
