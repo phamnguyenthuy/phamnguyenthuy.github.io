@@ -5,33 +5,9 @@
     flex-direction: column;
 }
 
-.two-columns-1 {
+.two-columns {
     flex: 1;
-    min-height: 0;
-
     display: grid;
-
-    grid-template-columns:
-        max-content minmax(0, 1fr);
-}
-
-.two-columns-2 {
-    flex: 1;
-    min-height: 0;
-
-    display: grid;
-
-    grid-template-columns:
-        minmax(0, 1fr) max-content;
-
-    border-radius: 12px 0px 0px 12px;
-
-    background-image: url("../images/backgrounds/bg2.webp");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    box-shadow: inset 0 0 12px rgba(0, 0, 0, 0.5);
 }
 
 .content {
