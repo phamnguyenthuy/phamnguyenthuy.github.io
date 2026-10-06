@@ -1,10 +1,3 @@
-.right-sidebar {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding: 0px;
-}
-
 /* Thiết lập kiểu dáng chung cho tất cả social link */
 .social-link {
 
