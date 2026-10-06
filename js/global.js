@@ -22,7 +22,23 @@ fetch("/components/right-sidebar.html")
         document.getElementById("right-sidebar").innerHTML = data;
     });
 
-// Mở QR modal box
+// Mở Menu modal
+document.addEventListener("click", (event) => {
+
+    // Mở Menu
+    if (event.target.closest("#menu-button")) {
+        document.getElementById("menu-modal").classList.add("active");
+        return;
+    }
+
+    // Đóng khi click vào vùng nền
+    if (event.target.id === "menu-modal") {
+        document.getElementById("menu-modal").classList.remove("active");
+    }
+
+});
+
+// Mở QR modal
 document.addEventListener("click", (event) => {
 
     // Mở QR
