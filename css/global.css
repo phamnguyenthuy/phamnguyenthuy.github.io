@@ -12,15 +12,3 @@ body {
     width: 100%;
     min-width: 375px;
 }
-
-.slogan {
-    padding: 12px;
-    font-size: 18px;
-    color: white;
-    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
-}
-
-.signature {
-    padding: 12px;
-    max-width: 180px;
-}
