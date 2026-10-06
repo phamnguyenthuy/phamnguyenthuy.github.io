@@ -11,12 +11,7 @@
 }
 
 .content {
-    /* Cho right-sidebar sử dụng Flexbox */
     display: flex;
-
-    /* Xếp các phần tử con theo chiều dọc */
     flex-direction: column;
-
-    /* Đẩy top-area lên trên và bottom-area xuống dưới */
     justify-content: space-between;
 }
