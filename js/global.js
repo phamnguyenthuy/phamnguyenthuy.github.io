@@ -22,6 +22,12 @@ fetch("/components/right-sidebar.html")
         document.getElementById("right-sidebar").innerHTML = data;
     });
 
+fetch("/components/modal.html")
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById("modal").innerHTML = data;
+    });
+
 // Mở Menu modal
 document.addEventListener("click", (event) => {
 
