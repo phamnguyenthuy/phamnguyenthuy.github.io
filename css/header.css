@@ -12,29 +12,6 @@ header {
     gap: 12px;
 }
 
-.header-icon {
-
-    padding: 0;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    border: 0;
-
-    color: black;
-    background-color: transparent;
-    cursor: pointer;
-}
-
-.header-icon svg {
-    display: block;
-
-    width: 32x;
-    height: 32px;
-    fill: currentColor;
-}
-
 .site-name {
     font-size: 28px;
     color: black;
