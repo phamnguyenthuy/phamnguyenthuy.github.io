@@ -58,12 +58,3 @@ footer {
 
     display: block;
 }
-
-
-/* Description */
-#qrModal p {
-    margin: 0;
-
-    font-size: 14px;
-    color: #666;
-}
