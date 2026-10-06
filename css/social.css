@@ -1,31 +1,13 @@
-/* Thiết lập kiểu dáng chung cho tất cả social link */
 .social-link {
-
-    /* Chiều rộng của nút */
     width: 48px;
-
-    /* Chiều cao của nút */
     height: 48px;
-
-    /* Loại bỏ padding mặc định */
     padding: 0;
-
-    /* Sử dụng Flexbox */
     display: flex;
-
-    /* Căn icon theo chiều dọc */
     align-items: center;
-
-    /* Căn icon theo chiều ngang */
     justify-content: center;
-
-    /* Icon sử dụng màu trắng */
     color: white;
-
-    /* Loại bỏ gạch chân của thẻ <a> */
     text-decoration: none;
 
-    /* Tạo hiệu ứng chuyển động mượt khi hover */
     transition:
         transform 0.2s ease,
         opacity 0.2s ease;
@@ -34,50 +16,33 @@
 
 /* Thiết lập kích thước SVG bên trong social link */
 .social-link svg {
-
-    /* Hiển thị SVG dạng block */
     display: block;
-
-    /* Chiều rộng icon */
     width: 24px;
-
-    /* Chiều cao icon */
     height: 24px;
 
-    /* SVG lấy màu từ thuộc tính color của .social-link */
     fill: currentColor;
 }
 
-/* Màu nền cho Facebook */
 .social-link.facebook {
     background-color: #1877F2;
 }
 
-
-/* Màu nền cho YouTube */
 .social-link.youtube {
     background-color: #FF0000;
 }
 
-/* Màu nền cho X */
 .social-link.x {
     background-color: #0F1419;
 }
 
-/* Màu nền cho LinkedIn */
 .social-link.linkedin {
     background-color: #0A66C2;
 }
 
-/* Màu nền cho GitHub */
 .social-link.github {
     background-color: #1F2328;
 }
 
-
-/* Hiệu ứng khi đưa chuột lên social link */
 .social-link:hover {
-
-    /* Làm nút hơi trong suốt */
     opacity: 0.85;
 }
