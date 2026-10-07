@@ -16,12 +16,6 @@ fetch("/components/sidebar.html")
         document.getElementById("sidebar").innerHTML = data;
     });
 
-fetch("/components/sub-footer.html")
-    .then(response => response.text())
-    .then(data => {
-        document.getElementById("sub-footer").innerHTML = data;
-    });
-
 fetch("/components/modal.html")
     .then(response => response.text())
     .then(data => {
