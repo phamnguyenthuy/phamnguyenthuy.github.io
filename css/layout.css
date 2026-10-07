@@ -5,13 +5,6 @@
     padding: 12px;
 }
 
-.right-sidebar {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding: 12px;
-}
-
 .content {
     display: flex;
     flex-direction: column;
