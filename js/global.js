@@ -10,16 +10,16 @@ fetch("/components/footer.html")
         document.getElementById("footer").innerHTML = data;
     });
 
-fetch("/components/left-sidebar.html")
+fetch("/components/sidebar.html")
     .then(response => response.text())
     .then(data => {
-        document.getElementById("left-sidebar").innerHTML = data;
+        document.getElementById("sidebar").innerHTML = data;
     });
 
-fetch("/components/right-sidebar.html")
+fetch("/components/sub-footer.html")
     .then(response => response.text())
     .then(data => {
-        document.getElementById("right-sidebar").innerHTML = data;
+        document.getElementById("sub-footer").innerHTML = data;
     });
 
 fetch("/components/modal.html")
