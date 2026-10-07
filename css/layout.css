@@ -5,12 +5,6 @@
     padding: 12px;
 }
 
-.content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
 .header-footer-aside {
     display: flex;
     align-items: center;
