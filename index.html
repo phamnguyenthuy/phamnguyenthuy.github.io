@@ -38,12 +38,13 @@
         <!-- Header -->
         <header id="header"></header>
 
-        <main class="two-columns" style="grid-template-columns: max-content minmax(0, 1fr);">
+        <main class="two-columns" style="display: flex; width: 100%;">
             <!-- Left Sidebar -->
-            <aside id="left-sidebar" class="left-sidebar"></aside>
+            <aside id="left-sidebar" class="left-sidebar" style="flex: 0 0 auto;"></aside>
 
-            <!-- Chia thành 2 nửa (trên max, dưới min), có nền -->
-            <section style="display: flex; flex-direction: column;
+            <section style="flex: 1;">
+                <!-- Chia thành 2 nửa (trên max, dưới min), có nền -->
+                <div style="display: flex; flex-direction: column;
                 height: 100%;
                 border-radius: 12px 0px 0px 12px;
                 background-image: url(./images/backgrounds/bg2.webp);
@@ -51,21 +52,22 @@
                 background-repeat: no-repeat;
                 background-size: cover;
                 box-shadow: inset 0 0 12px rgba(0, 0, 0, 0.5);">
-                <div style="flex: 1;"></div>
-                <div style="flex: 0 0 auto;">
-                    <div style="display: flex; flex: 1; width: 100%; justify-content: space-between;">
-                        <div>
-                            <h6
-                                style="padding: 12px; max-width: 360px; color: white; font-style: italic; text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);">
-                                We think there will always be TOMORROWS, so we waste too many TODAYS!
-                            </h6>
+                    <div style="flex: 1;"></div>
+                    <div style="flex: 0 0 auto;">
+                        <div style="display: flex; flex: 1; width: 100%; justify-content: space-between;">
+                            <div>
+                                <h6
+                                    style="padding: 12px; max-width: 360px; color: white; font-style: italic; text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);">
+                                    We think there will always be TOMORROWS, so we waste too many TODAYS!
+                                </h6>
 
-                            <img style="padding: 12px; max-width: 180px;" src="./images/logos/signature-white.svg"
-                                alt="Signature">
+                                <img style="padding: 12px; max-width: 180px;" src="./images/logos/signature-white.svg"
+                                    alt="Signature">
+                            </div>
+
+                            <!-- Right Sidebar -->
+                            <aside id="right-sidebar" class="right-sidebar"></aside>
                         </div>
-
-                        <!-- Right Sidebar -->
-                        <aside id="right-sidebar" class="right-sidebar"></aside>
                     </div>
                 </div>
             </section>
