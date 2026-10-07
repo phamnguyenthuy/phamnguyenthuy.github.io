@@ -13,6 +13,13 @@ body {
     color: black;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+}
+
 h1 {
     font-size: 28px;
 }
