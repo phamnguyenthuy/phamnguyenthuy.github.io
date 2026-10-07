@@ -20,6 +20,13 @@ header {
     padding: 12px;
 }
 
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 12px;
+}
+
 footer {
     display: flex;
     align-items: center;
