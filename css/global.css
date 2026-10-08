@@ -68,7 +68,7 @@ footer {
     justify-content: space-between;
     height: 100%;
     border-radius: 12px 0px 0px 12px;
-    background-color: darkgrey;
+    background-color: #3a3a3a;
 }
 
 .content p,
