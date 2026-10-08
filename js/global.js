@@ -10,6 +10,12 @@ fetch("/components/footer.html")
         document.getElementById("footer").innerHTML = data;
     });
 
+fetch("/components/content-foot.html")
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById("content-foot").innerHTML = data;
+    });
+
 fetch("/components/sidebar.html")
     .then(response => response.text())
     .then(data => {
