@@ -71,6 +71,18 @@ footer {
     background-color: darkgrey;
 }
 
+.content p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 12px;
+    color: white;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+}
+
 #content-foot {
     display: flex;
     justify-content: space-between;
