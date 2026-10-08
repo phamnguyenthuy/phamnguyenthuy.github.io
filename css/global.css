@@ -114,3 +114,9 @@ h6 {
     height: 32px;
     fill: currentColor;
 }
+
+.project-link {
+    width: 56px;
+    height: 56px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
