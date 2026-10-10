@@ -16,48 +16,43 @@ function gtag() {
 gtag("js", new Date());
 gtag("config", "G-NH25X3D8MD");
 
-fetch("./components/header.html")
-    .then(response => response.text())
-    .then(data => {
-        document.getElementById("header").innerHTML = data;
-    });
+function loadComponent(selector, path) {
+    fetch(path)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`Không tải được ${path}: ${response.status}`);
+            }
 
-fetch("./components/footer.html")
-    .then(response => response.text())
-    .then(data => {
-        document.getElementById("footer").innerHTML = data;
-    });
+            return response.text();
+        })
+        .then(html => {
+            const element = document.querySelector(selector);
 
-fetch("./components/content-foot.html")
-    .then(response => response.text())
-    .then(data => {
-        document.getElementById("content-foot").innerHTML = data;
-    });
+            if (element) {
+                element.innerHTML = html;
+            }
+        })
+        .catch(error => console.error(error));
+}
 
-fetch("./components/sidebar.html")
-    .then(response => response.text())
-    .then(data => {
-        document.getElementById("sidebar").innerHTML = data;
-    });
-
-fetch("./components/modal.html")
-    .then(response => response.text())
-    .then(data => {
-        document.getElementById("modal").innerHTML = data;
-    });
+loadComponent("#header", "./components/header.html");
+loadComponent("#footer", "./components/footer.html");
+loadComponent("#content-foot", "./components/content-foot.html");
+loadComponent("#sidebar", "./components/sidebar.html");
+loadComponent("#modal", "./components/modal.html");
 
 // Mở Menu modal
 document.addEventListener("click", (event) => {
 
     // Mở Menu
     if (event.target.closest("#menu-button")) {
-        document.getElementById("menu-modal").classList.add("active");
+        document.getElementById("menu-modal")?.classList.add("active");
         return;
     }
 
     // Đóng khi click vào vùng nền
     if (event.target.id === "menu-modal") {
-        document.getElementById("menu-modal").classList.remove("active");
+        document.getElementById("menu-modal")?.classList.remove("active");
     }
 
 });
@@ -67,13 +62,13 @@ document.addEventListener("click", (event) => {
 
     // Mở QR
     if (event.target.closest("#qr-button")) {
-        document.getElementById("qr-modal").classList.add("active");
+        document.getElementById("qr-modal")?.classList.add("active");
         return;
     }
 
     // Đóng khi click vào vùng nền
     if (event.target.id === "qr-modal") {
-        document.getElementById("qr-modal").classList.remove("active");
+        document.getElementById("qr-modal")?.classList.remove("active");
     }
 
 });
