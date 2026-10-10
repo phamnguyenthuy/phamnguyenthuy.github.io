@@ -16,31 +16,31 @@ function gtag() {
 gtag("js", new Date());
 gtag("config", "G-NH25X3D8MD");
 
-fetch("/components/header.html")
+fetch("./components/header.html")
     .then(response => response.text())
     .then(data => {
         document.getElementById("header").innerHTML = data;
     });
 
-fetch("/components/footer.html")
+fetch("./components/footer.html")
     .then(response => response.text())
     .then(data => {
         document.getElementById("footer").innerHTML = data;
     });
 
-fetch("/components/content-foot.html")
+fetch("./components/content-foot.html")
     .then(response => response.text())
     .then(data => {
         document.getElementById("content-foot").innerHTML = data;
     });
 
-fetch("/components/sidebar.html")
+fetch("./components/sidebar.html")
     .then(response => response.text())
     .then(data => {
         document.getElementById("sidebar").innerHTML = data;
     });
 
-fetch("/components/modal.html")
+fetch("./components/modal.html")
     .then(response => response.text())
     .then(data => {
         document.getElementById("modal").innerHTML = data;
