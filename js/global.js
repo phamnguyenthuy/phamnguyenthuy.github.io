@@ -1,4 +1,3 @@
-
 // Google Analytics
 const analyticsScript = document.createElement("script");
 
@@ -16,20 +15,6 @@ function gtag() {
 
 gtag("js", new Date());
 gtag("config", "G-NH25X3D8MD");
-
-// Chèn các thành phần dùng chung vào thẻ <head></head>
-fetch("/components/head.html")
-    .then(response => {
-        if (!response.ok) {
-            throw new Error("Không tải được head.html");
-        }
-
-        return response.text();
-    })
-    .then(html => {
-        document.head.insertAdjacentHTML("beforeend", html);
-    })
-    .catch(error => console.error(error));
 
 fetch("/components/header.html")
     .then(response => response.text())
