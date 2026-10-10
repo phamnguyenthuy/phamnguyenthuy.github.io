@@ -1,21 +1,22 @@
-// Google Analytics
-const analyticsScript = document.createElement("script");
+// // Google Analytics
+// const analyticsScript = document.createElement("script");
 
-analyticsScript.async = true;
-analyticsScript.src =
-    "https://www.googletagmanager.com/gtag/js?id=G-NH25X3D8MD";
+// analyticsScript.async = true;
+// analyticsScript.src =
+//     "https://www.googletagmanager.com/gtag/js?id=G-NH25X3D8MD";
 
-document.head.appendChild(analyticsScript);
+// document.head.appendChild(analyticsScript);
 
-window.dataLayer = window.dataLayer || [];
+// window.dataLayer = window.dataLayer || [];
 
-function gtag() {
-    window.dataLayer.push(arguments);
-}
+// function gtag() {
+//     window.dataLayer.push(arguments);
+// }
 
-gtag("js", new Date());
-gtag("config", "G-NH25X3D8MD");
+// gtag("js", new Date());
+// gtag("config", "G-NH25X3D8MD");
 
+// Load các components
 function loadComponent(selector, path) {
     fetch(path)
         .then(response => {
