@@ -69,7 +69,6 @@ footer {
 
     border: 0;
 
-    color: black;
     background-color: transparent;
     cursor: pointer;
 }
@@ -100,4 +99,5 @@ footer {
     display: block;
     width: 38px;
     height: 38px;
+    fill: black;
 }
