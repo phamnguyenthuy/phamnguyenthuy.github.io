@@ -85,13 +85,13 @@ footer {
     fill: currentColor;
 }
 
-.project-link {
+.language-link {
     width: 68px;
     height: 68px;
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.5);
 }
 
-.project-link:hover {
+.language-link:hover {
     opacity: 0.85;
 }
