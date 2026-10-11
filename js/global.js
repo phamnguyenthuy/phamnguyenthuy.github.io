@@ -37,7 +37,6 @@ function loadComponent(selector, path) {
 }
 
 loadComponent("#header", "./components/header.html");
-loadComponent("#footer", "./components/footer.html");
 loadComponent("#content-foot", "./components/content-foot.html");
 loadComponent("#sidebar", "./components/sidebar.html");
 loadComponent("#modal", "./components/modal.html");
