@@ -36,7 +36,6 @@ function loadComponent(selector, path) {
         .catch(error => console.error(error));
 }
 
-loadComponent("#content-foot", "./components/content-foot.html");
 loadComponent("#modal", "./components/modal.html");
 
 // Mở Menu modal
