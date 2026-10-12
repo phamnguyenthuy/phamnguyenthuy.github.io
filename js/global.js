@@ -38,10 +38,6 @@ function loadComponent(selector, path) {
 
 loadComponent("#modal", "./components/modal.html");
 
-// Cập nhật năm tại vị trí copyright
-document.getElementById("current-year").textContent =
-    new Date().getFullYear();
-
 // Mở Menu modal
 document.addEventListener("click", (event) => {
 
