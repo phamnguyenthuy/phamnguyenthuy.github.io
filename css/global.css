@@ -42,7 +42,8 @@ body {
 }
 
 header,
-footer {
+footer,
+aside {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -50,11 +51,7 @@ footer {
 }
 
 aside {
-    display: flex;
-    align-items: center;
     flex-direction: column;
-    justify-content: space-between;
-    padding: 12px;
 }
 
 aside p {
