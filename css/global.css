@@ -60,7 +60,6 @@ aside {
 aside p {
     writing-mode: vertical-rl;
     transform: rotate(180deg);
-    white-space: nowrap;
 }
 
 .icon {
