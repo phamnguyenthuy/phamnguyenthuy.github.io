@@ -57,6 +57,12 @@ aside {
     padding: 12px;
 }
 
+aside p {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    white-space: nowrap;
+}
+
 .icon {
     display: flex;
     align-items: center;
