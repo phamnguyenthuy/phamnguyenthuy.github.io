@@ -25,7 +25,7 @@
         <header style="flex: 0 0 auto;">
             <div class="header-footer-aside">
                 <!-- Menu button -->
-                <button id="menu-button" type="button" class="icon" aria-label="Open menu">
+                <button id="menu-button" type="button" title="Menu" class="icon" aria-label="Open menu">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
                         <path
                             d="M320 208C289.1 208 264 182.9 264 152C264 121.1 289.1 96 320 96C350.9 96 376 121.1 376 152C376 182.9 350.9 208 320 208zM320 432C350.9 432 376 457.1 376 488C376 518.9 350.9 544 320 544C289.1 544 264 518.9 264 488C264 457.1 289.1 432 320 432zM376 320C376 350.9 350.9 376 320 376C289.1 376 264 350.9 264 320C264 289.1 289.1 264 320 264C350.9 264 376 289.1 376 320z" />
@@ -33,16 +33,16 @@
                 </button>
 
                 <!-- Site name -->
-                <a href="/" aria-label="Go home" style="font-size: 28px;
-                                                        color: black;
-                                                        text-decoration: none;">
+                <a href="/" title="Home" aria-label="Go home" style="font-size: 28px;
+                                                                     color: black;
+                                                                     text-decoration: none;">
                     Thuy Pham
                 </a>
             </div>
 
             <div class="header-footer-aside">
                 <!-- Go home icon -->
-                <a href="/" class="icon" aria-label="Go home">
+                <a href="/" class="icon" title="Home" aria-label="Go home">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
                         <path
                             d="M192 128c0-17.7 14.3-32 32-32s32 14.3 32 32l0 7.8c0 27.7-2.4 55.3-7.1 82.5l-84.4 25.3c-40.6 12.2-68.4 49.6-68.4 92l0 32.4-72 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l72.5 0c4.2 36 34.8 64 72 64 26 0 50-13.9 62.9-36.5l13.9-24.3c26.8-47 46.5-97.7 58.4-150.5l94.4-28.3-12.5 37.5c-3.3 9.8-1.6 20.5 4.4 28.8S405.7 320 416 320l128 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-83.6 0 18-53.9c3.8-11.3 .9-23.8-7.4-32.4s-20.7-11.8-32.2-8.4L316.4 198.1c2.4-20.7 3.6-41.4 3.6-62.3l0-7.8c0-53-43-96-96-96s-96 43-96 96l0 32c0 17.7 14.3 32 32 32s32-14.3 32-32l0-32zm-9.2 177l49-14.7c-10.4 33.8-24.5 66.4-42.1 97.2l-13.9 24.3c-1.5 2.6-4.3 4.3-7.4 4.3-4.7 0-8.5-3.8-8.5-8.5l0-71.9c0-14.1 9.3-26.6 22.8-30.7zM616 416c13.3 0 24-10.7 24-24s-10.7-24-24-24l-292.9 0c-6.5 16.3-13.7 32.3-21.6 48L616 416z" />
@@ -62,7 +62,7 @@
                     Youth Fades — Knowledge Lasts
                 </p>
 
-                <a href="/" class="icon" aria-label="Go home">
+                <a href="/" class="icon" title="Contact" aria-label="Go home">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
                         <path
                             d="M144 128C144 92.7 172.7 64 208 64L432 64C467.3 64 496 92.7 496 128L496 512C496 547.3 467.3 576 432 576L208 576C172.7 576 144 547.3 144 512L144 128zM208 128L208 432L432 432L432 128L208 128zM320 536C337.7 536 352 521.7 352 504C352 486.3 337.7 472 320 472C302.3 472 288 486.3 288 504C288 521.7 302.3 536 320 536z" />
@@ -82,13 +82,15 @@
                                 padding: 24px;
                                 gap: 24px;
                                 max-height: 576px;">
-                        <a href="https://www.python.org/" target="_blank" class="language-link" aria-label="Python">
+                        <a href="https://www.python.org/" title="Python" target="_blank" class="language-link"
+                            aria-label="Python">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                                 <path
                                     d="M439.8 200.5c-7.7-30.9-22.3-54.2-53.4-54.2l-40.1 0 0 47.4c0 36.8-31.2 67.8-66.8 67.8l-106.8 0c-29.2 0-53.4 25-53.4 54.3l0 101.8c0 29 25.2 46 53.4 54.3 33.8 9.9 66.3 11.7 106.8 0 26.9-7.8 53.4-23.5 53.4-54.3l0-40.7-106.7 0 0-13.6 160.2 0c31.1 0 42.6-21.7 53.4-54.2 11.2-33.5 10.7-65.7 0-108.6zM286.2 444.7a20.4 20.4 0 1 1 0-40.7 20.4 20.4 0 1 1 0 40.7zM167.8 248.1l106.8 0c29.7 0 53.4-24.5 53.4-54.3l0-101.9c0-29-24.4-50.7-53.4-55.6-35.8-5.9-74.7-5.6-106.8 .1-45.2 8-53.4 24.7-53.4 55.6l0 40.7 106.9 0 0 13.6-147 0c-31.1 0-58.3 18.7-66.8 54.2-9.8 40.7-10.2 66.1 0 108.6 7.6 31.6 25.7 54.2 56.8 54.2l36.7 0 0-48.8c0-35.3 30.5-66.4 66.8-66.4zM161.2 64.7a20.4 20.4 0 1 1 0 40.8 20.4 20.4 0 1 1 0-40.8z" />
                             </svg>
                         </a>
-                        <a href="https://www.php.net/" target="_blank" class="language-link" aria-label="PHP">
+                        <a href="https://www.php.net/" title="PHP" target="_blank" class="language-link"
+                            aria-label="PHP">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
                                 <path
                                     d="M320 104.5c171.4 0 303.2 72.2 303.2 151.5S491.3 407.5 320 407.5C148.6 407.5 16.8 335.3 16.8 256S148.7 104.5 320 104.5zm0-16.8C143.3 87.7 0 163 0 256S143.3 424.3 320 424.3 640 349 640 256 496.7 87.7 320 87.7zM218.2 242.5c-7.9 40.5-35.8 36.3-70.1 36.3l13.7-70.6c38 0 63.8-4.1 56.4 34.3zM97.4 350.3l36.7 0 8.7-44.8c41.1 0 66.6 3 90.2-19.1 26.1-24 32.9-66.7 14.3-88.1-9.7-11.2-25.3-16.7-46.5-16.7l-70.7 0-32.7 168.7zM283.1 136.7l36.5 0-8.7 44.8c31.5 0 60.7-2.3 74.8 10.7 14.8 13.6 7.7 31-8.3 113.1l-37 0c15.4-79.4 18.3-86 12.7-92-5.4-5.8-17.7-4.6-47.4-4.6l-18.8 96.6-36.5 0 32.7-168.6zM505 242.5c-8 41.1-36.7 36.3-70.1 36.3l13.7-70.6c38.2 0 63.8-4.1 56.4 34.3zM384.2 350.3l36.8 0 8.7-44.8c43.2 0 67.1 2.5 90.2-19.1 26.1-24 32.9-66.7 14.3-88.1-9.7-11.2-25.3-16.7-46.5-16.7l-70.7 0-32.8 168.7z" />
@@ -123,7 +125,7 @@
                                     padding: 12px;">
 
                             <!-- Facebook -->
-                            <a href="https://www.facebook.com/phamnguyenthuydotcom" target="_blank"
+                            <a href="https://www.facebook.com/phamnguyenthuydotcom" title="Facebook" target="_blank"
                                 class="social-link facebook" aria-label="Facebook">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
                                     <path
@@ -132,7 +134,7 @@
                             </a>
 
                             <!-- Youtube -->
-                            <a href="https://www.youtube.com/@phamnguyenthuy" target="_blank"
+                            <a href="https://www.youtube.com/@phamnguyenthuy" title="Youtube" target="_blank"
                                 class="social-link youtube" aria-label="Youtube">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
                                     <path
@@ -141,7 +143,7 @@
                             </a>
 
                             <!-- LinkedIn -->
-                            <a href="https://www.linkedin.com/in/phamnguyenthuy" target="_blank"
+                            <a href="https://www.linkedin.com/in/phamnguyenthuy" title="LinkedIn" target="_blank"
                                 class="social-link linkedin" aria-label="Linkedin">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
                                     <path
@@ -159,7 +161,7 @@
             <div class="header-footer-aside">
 
                 <!-- QR code button -->
-                <button id="qr-button" type="button" class="icon" aria-label="Open QR code">
+                <button id="qr-button" type="button" title="QR code" class="icon" aria-label="Open QR code">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
                         <path
                             d="M160 224L224 224L224 160L160 160L160 224zM96 144C96 117.5 117.5 96 144 96L240 96C266.5 96 288 117.5 288 144L288 240C288 266.5 266.5 288 240 288L144 288C117.5 288 96 266.5 96 240L96 144zM160 480L224 480L224 416L160 416L160 480zM96 400C96 373.5 117.5 352 144 352L240 352C266.5 352 288 373.5 288 400L288 496C288 522.5 266.5 544 240 544L144 544C117.5 544 96 522.5 96 496L96 400zM416 160L416 224L480 224L480 160L416 160zM400 96L496 96C522.5 96 544 117.5 544 144L544 240C544 266.5 522.5 288 496 288L400 288C373.5 288 352 266.5 352 240L352 144C352 117.5 373.5 96 400 96zM384 416C366.3 416 352 401.7 352 384C352 366.3 366.3 352 384 352C401.7 352 416 366.3 416 384C416 401.7 401.7 416 384 416zM384 480C401.7 480 416 494.3 416 512C416 529.7 401.7 544 384 544C366.3 544 352 529.7 352 512C352 494.3 366.3 480 384 480zM480 512C480 494.3 494.3 480 512 480C529.7 480 544 494.3 544 512C544 529.7 529.7 544 512 544C494.3 544 480 529.7 480 512zM512 416C494.3 416 480 401.7 480 384C480 366.3 494.3 352 512 352C529.7 352 544 366.3 544 384C544 401.7 529.7 416 512 416zM480 448C480 465.7 465.7 480 448 480C430.3 480 416 465.7 416 448C416 430.3 430.3 416 448 416C465.7 416 480 430.3 480 448z" />
