@@ -36,7 +36,8 @@ function loadComponent(selector, path) {
         .catch(error => console.error(error));
 }
 
-loadComponent("#modal", "./components/modal.html");
+loadComponent("#menu", "./components/menu.html");
+loadComponent("#qr-code", "./components/qr-code.html");
 
 // Mở Menu modal
 document.addEventListener("click", (event) => {
