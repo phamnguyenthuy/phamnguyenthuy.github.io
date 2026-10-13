@@ -1,9 +1,3 @@
-.header-footer-aside {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-}
-
 .content {
     display: flex;
     flex-direction: column;

@@ -59,6 +59,12 @@ aside p {
     transform: rotate(180deg);
 }
 
+header div,
+footer div {
+    display: flex;
+    gap: 12px;
+}
+
 .icon {
     display: flex;
     align-items: center;
