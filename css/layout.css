@@ -25,7 +25,7 @@
     gap: 12px;
 
     /* Overlay */
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.08);
 }
 
 .content p,
