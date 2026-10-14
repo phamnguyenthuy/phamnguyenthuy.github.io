@@ -1,7 +1,6 @@
 .background-content {
     height: 100%;
     border-radius: 12px 0px 0px 12px;
-    background-image: url(/images/backgrounds/bg2a.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,6 +8,9 @@
         inset 0 4px 6px -4px rgba(0, 0, 0, 0.5),
         inset 4px 0 6px -4px rgba(0, 0, 0, 0.5),
         inset 0 -4px 6px -4px rgba(0, 0, 0, 0.5);
+
+    /* Default background image */
+    background-image: url(/images/backgrounds/bg2a.webp);
 }
 
 .content {
@@ -19,6 +21,8 @@
     justify-content: space-between;
     padding: 12px;
     gap: 12px;
+
+    /* Overlay */
     background-color: rgba(0, 0, 0, 0.1);
 }
 
