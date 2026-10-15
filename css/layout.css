@@ -10,7 +10,7 @@
     background-image: url(/images/backgrounds/bg2a.webp);
 }
 
-.content {
+.background-content .content {
     height: inherit;
     border-radius: inherit;
 
