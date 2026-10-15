@@ -51,6 +51,14 @@ aside {
     gap: 12px;
 }
 
+header div,
+footer div,
+aside div {
+    align-items: center;
+    display: flex;
+    gap: 12px;
+}
+
 aside {
     flex-direction: column;
 }
@@ -60,11 +68,8 @@ aside p {
     transform: rotate(180deg);
 }
 
-header div,
-footer div,
 aside div {
-    display: flex;
-    gap: 12px;
+    flex-direction: column;
 }
 
 .icon {
