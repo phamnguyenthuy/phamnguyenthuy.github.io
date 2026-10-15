@@ -14,7 +14,8 @@
 
 .modal-box {
     list-style: none;
-    margin: 16px;
+    margin: 12px;
+    padding: 12px;
     border-radius: 12px;
     background: white;
     text-align: center;

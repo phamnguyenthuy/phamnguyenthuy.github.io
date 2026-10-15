@@ -71,3 +71,24 @@ aside p {
 aside div {
     flex-direction: column;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    font-size: 18px;
+    margin: 12px;
+    gap: 12px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+}
+
+form input,
+label,
+textarea,
+button {
+    font-size: 18px;
+}
