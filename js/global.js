@@ -37,6 +37,7 @@ function loadComponent(selector, path) {
 }
 
 loadComponent("#menu", "./components/menu.html");
+loadComponent("#contact", "./components/contact.html");
 loadComponent("#qr-code", "./components/qr-code.html");
 
 // Mở Menu modal
@@ -51,6 +52,22 @@ document.addEventListener("click", (event) => {
     // Đóng khi click vào vùng nền
     if (event.target.id === "menu-modal") {
         document.getElementById("menu-modal")?.classList.remove("active");
+    }
+
+});
+
+// Mở Contact modal
+document.addEventListener("click", (event) => {
+
+    // Mở Contact
+    if (event.target.closest("#contact-button")) {
+        document.getElementById("contact-modal")?.classList.add("active");
+        return;
+    }
+
+    // Đóng khi click vào vùng nền
+    if (event.target.id === "contact-modal") {
+        document.getElementById("contact-modal")?.classList.remove("active");
     }
 
 });
