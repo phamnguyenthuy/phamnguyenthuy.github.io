@@ -61,7 +61,8 @@ aside p {
 }
 
 header div,
-footer div {
+footer div,
+aside div {
     display: flex;
     gap: 12px;
 }
