@@ -84,8 +84,14 @@ form {
 
 form input,
 label,
-textarea,
-button {
+textarea {
+    padding: 8px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+form button {
+    padding: 8px;
     border: none;
     background-color: rgba(0, 0, 0, 0.08);
 }
