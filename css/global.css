@@ -86,7 +86,6 @@ form input,
 label,
 textarea,
 button {
-    padding: 8px;
     border: none;
     background-color: rgba(0, 0, 0, 0.08);
 }
