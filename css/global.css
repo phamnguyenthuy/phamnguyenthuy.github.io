@@ -86,18 +86,21 @@ form {
     gap: 8px;
 }
 
+form button,
 input,
 textarea {
     border: inherit;
     padding: 8px;
-    color: black;
-    background-color: rgba(0, 0, 0, 0.08);
 }
 
 form button {
-    border: inherit;
     font-weight: normal;
-    padding: 8px;
     color: white;
     background-color: black;
+}
+
+input,
+textarea {
+    color: black;
+    background-color: rgba(0, 0, 0, 0.08);
 }
