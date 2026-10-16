@@ -31,7 +31,10 @@ h6 {
     font-size: 18px;
 }
 
-p {
+p,
+input,
+textarea,
+button {
     font-size: 16px;
 }
 
@@ -75,7 +78,6 @@ aside div {
 form {
     display: flex;
     border: none;
-    font-size: 16px;
     flex-direction: column;
     text-align: start;
     width: 240px;
@@ -85,10 +87,8 @@ form {
 }
 
 input,
-label,
 textarea {
     border: inherit;
-    font-size: inherit;
     padding: 8px;
     color: black;
     background-color: rgba(0, 0, 0, 0.08);
@@ -96,7 +96,6 @@ textarea {
 
 form button {
     border: inherit;
-    font-size: inherit;
     font-weight: normal;
     padding: 8px;
     color: white;
