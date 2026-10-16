@@ -1,4 +1,4 @@
-.background-content {
+.background {
     height: 100%;
     border-radius: 12px 0px 0px 12px;
 
@@ -10,7 +10,7 @@
     background-image: url(/images/backgrounds/bg2a.webp);
 }
 
-.background-content .content {
+.background .content {
     height: inherit;
     border-radius: inherit;
 
