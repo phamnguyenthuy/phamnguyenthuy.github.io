@@ -82,7 +82,7 @@ form {
     gap: 4px;
 }
 
-form input,
+input,
 label,
 textarea {
     padding: 8px;
