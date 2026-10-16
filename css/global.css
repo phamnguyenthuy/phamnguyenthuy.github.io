@@ -87,11 +87,13 @@ label,
 textarea {
     padding: 8px;
     border: none;
+    color: black;
     background-color: rgba(0, 0, 0, 0.08);
 }
 
 form button {
     padding: 8px;
     border: none;
+    color: black;
     background-color: rgba(0, 0, 0, 0.08);
 }
