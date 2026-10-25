@@ -14,6 +14,7 @@
     height: inherit;
     border-radius: inherit;
 
+    /* Để phần tử con có thể định vị bên trong */
     position: relative;
 
     display: flex;
